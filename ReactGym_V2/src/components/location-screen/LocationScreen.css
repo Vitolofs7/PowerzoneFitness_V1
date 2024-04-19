@@ -1,0 +1,7 @@
+.locations-map-container{
+    z-index: 100;
+    width: 50vw;
+    height: 50vw;
+    transform: translateX(50%);
+}
+

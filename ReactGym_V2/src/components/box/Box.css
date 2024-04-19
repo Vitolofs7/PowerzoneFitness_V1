@@ -1,0 +1,29 @@
+.box-wrapper {
+    background-color: white;
+    border-radius: 5px;
+    padding: .5rem;
+    text-align: center;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .box-icon {
+    font-size: 2rem;
+    color: var(--primary-color);
+  }
+  
+  h4 {
+    padding: .5rem 0;
+  }
+  
+  h4>span {
+    color: var(--primary-color);
+  }
+  
+  p {
+    font-size: medium;
+    text-align: center;
+  }

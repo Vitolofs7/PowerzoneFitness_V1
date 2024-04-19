@@ -1,0 +1,33 @@
+.gallery{
+    color: #fff;
+    background: linear-gradient(rgba(0,14,41,.6), rgba(0,7,78,.7)), url(/images/fondo-galeria.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 100px 0;
+}
+
+.gallery .section-content{
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.gallery .title-container {
+    display: flex;
+    align-items: center;
+}
+
+.gallery .title-container .number {
+    color: #ff1133;
+    font-weight: bold;
+    display: block;
+    font-size: 7em;
+}
+
+.gallery .title-container .info {
+    margin-left: 30px;
+}
+
+.gallery .title-container .info .phrase {
+    color: #ff1133;
+}
