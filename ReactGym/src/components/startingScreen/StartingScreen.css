@@ -1,0 +1,108 @@
+.RedTxt{
+    color: #ff1133;
+}
+
+.start{
+    height: 100vh;
+    background: linear-gradient(rgba(0,1,3,.5), rgba(0,0,0,.7)), url(/images/fondo.jpg);
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    position: relative;
+}
+
+.start .section-content{
+    max-width: 110px;
+    margin: auto;
+}
+
+.start .info{
+    width: fit-content;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.start .info h2{
+    font-size: 4rem;
+    letter-spacing: 3px;
+}
+
+.start .info p{
+    margin: 20px;
+    color: #797e8e;
+    font-size: 16px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.start .info .more-btn{
+    width: 50px;
+    margin: auto;
+    height: 50px;
+    border: 2px solid #ff1133;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #ff1133;
+    margin-top: 50px;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.start .info .more-btn:hover{
+    transform: scale(1.7) rotate(360deg);
+    background-color: #ff1133;
+    color: #fff;
+}
+
+.options{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.options .option{
+    border-top: 2px solid #797e8e;
+    padding: 7px;
+    color: #797e8e;
+    margin: 0 20px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .start{
+        background-size: cover;
+        background-position-x: 2100px;
+    }
+    
+    .start .info {
+        text-align: center;
+    }
+    .start .info h2 {
+        font-size: 2.5em; 
+        
+    }
+    .start .info p {
+        font-size: 16px; 
+    }
+
+    .start .info .more-btn{
+        display: none;
+    }
+
+    .options {
+        flex-direction: column;
+        align-items: center; 
+    }
+    .options .option {
+        margin: 5px 0;
+    }
+}

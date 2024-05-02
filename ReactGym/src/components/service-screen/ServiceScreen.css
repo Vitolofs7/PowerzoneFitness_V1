@@ -1,0 +1,97 @@
+.services{
+    color: #fff;
+    position: relative;
+}
+
+.services .services-content{
+    background: linear-gradient(rgba(0,14,41,.6), rgba(0,7,78,.7)), url(/images/fondo-servicios.jpg);
+    background-size: cover;
+    background-position: center center;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.services .services-content .row{
+    display: flex;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+    padding: 100px;
+}
+
+.services .services-content .row .col{
+    width: 50%;
+}
+
+.services .services-content .row .col img{
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+.services .row .col .title-container {
+    display: flex;
+    align-items: center;
+}
+
+.services .row .col .title-container .number {
+    color: #ff1133;
+    font-weight: bold;
+    display: block;
+    font-size: 5em;
+}
+
+.services .row .col .title-container .info {
+    margin-left: 30px;
+}
+
+.services .row .col .title-container .info .phrase {
+    color: #ff1133;
+}
+
+.services .row .col .title-container .info .h2 {
+    font-size: 3em;
+}
+
+.services .row .col p {
+    margin-bottom: 10px;
+    line-height: 28px;
+}
+
+.services .row .col .p-special {
+    font-weight: bold;
+}
+
+.services .info-services{
+    max-width: 800px;
+    margin: auto;
+}
+
+.services .info-services table{
+    text-align: center;
+    background-color: #fff;
+    color: #1f283e;
+    border-collapse: collapse;
+    position: relative;
+    bottom: 100px;
+}
+
+.services .info-services table td{
+    padding: 30px;
+    border: 1px solid #dde1e9;
+}
+
+.services .info-services table td i{
+    color: #ff1133;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.services .info-services h3{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.services .info-services p{
+    line-height: 30px;
+}

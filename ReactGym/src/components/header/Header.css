@@ -1,0 +1,85 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;400;600;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow';
+}
+
+body{
+    background-color: #dde1e9;
+}
+
+.header-container{
+    width: 100%;
+    position: fixed;
+    border-bottom: 1px solid #2f283e;
+    background-color: rgba(0,0,0,.7);
+    z-index: 99;
+    padding: 0 20px;
+}
+
+
+.header-container header img {
+    max-width: 200px;
+    height: auto; 
+}
+
+.header-container header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    color: #fff;
+}
+
+.header-container header nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.header-container header nav a:hover{
+    color: #ff1133;
+}
+
+.header-container header .networks a{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 8px;
+}
+
+.header-container header .networks a:hover{
+    color: #ff1133;
+}
+
+.nav-responsive{
+    font-size: 25px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .header-container {
+        padding: 0 10px;
+        width:85%;
+    }
+    .header-container header {
+        align-items: center; 
+    }
+    .header-container header img {
+        max-width: 120px; 
+    }
+    .header-container header nav {
+        display: none;
+    }
+    .nav-responsive {
+        display: block; 
+    }
+}

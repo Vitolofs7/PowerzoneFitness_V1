@@ -1,0 +1,141 @@
+.RedTxt {
+    color: #ff1133;
+}
+
+.us {
+    max-width: 1100px;
+    margin: auto;
+    height: 100vh;
+    border-color: #dde1e9;
+    padding: 100px 20px;
+}
+
+.us .row {
+    display: flex;
+    align-items: center;
+}
+
+.us .row .col {
+    width: 50%;
+}
+
+.us .row .col img {
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.us .row .col .title-container {
+    display: flex;
+    align-items: center;
+}
+
+.us .row .col .title-container .number {
+    color: #ff1133;
+    font-weight: bold;
+    display: block;
+    font-size: 5em;
+}
+
+.us .row .col .title-container .info {
+    margin-left: 30px;
+}
+
+.us .row .col .title-container .info .phrase {
+    color: #ff1133;
+}
+
+.us .row .col .title-container .info .h2 {
+    font-size: 3em;
+}
+
+.us .row .col p {
+    margin-bottom: 10px;
+    line-height: 28px;
+}
+
+.us .row .col .p-special {
+    font-weight: bold;
+}
+
+.us hr {
+    margin-bottom: 30px;
+}
+
+.us .row-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.us .row-us .phrase {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.us .row-us h2 {
+    font-size: 2.5rem;
+}
+
+.us .row-us button {
+    background-color: #ff1133;
+    border: none;
+    color: #fff;
+    padding: 15px 35px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.us .row-us button:hover {
+    background-color: #000;
+    color: #ff1133
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .us {
+        padding: 10px 2px;
+    }
+
+    .us .row {
+        display: block;
+    }
+    
+    .us .row .col img {
+        width: 80%;
+        margin-left: 140px;
+        margin-bottom: 30px;
+    }
+
+    .us .row .col .title-container {
+        margin-left: 100px;
+    }
+    
+    .us .row .col .title-container .number {
+        font-size: 4em;
+    }
+    
+    .us .row .col p {
+        margin-left: 100px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        line-height: 25px;
+        width: 100%;
+    }
+    
+    .us .row .col .p-special {
+        width: 100%;
+        margin-left: 100px;
+    }
+    
+    .us hr {
+        margin-bottom: 30px;
+    }
+    
+}
