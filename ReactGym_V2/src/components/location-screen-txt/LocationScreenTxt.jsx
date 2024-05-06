@@ -4,9 +4,9 @@ function LocationScreenTxt() {
     return (
         <section className="location-screen-location">
             <div className="location-screen-row">
-                <div className="location-screen-col">
+                
                     <img src="/images/e3.png" alt=""></img>
-                </div>
+                
                 <div className="location-screen-col">
                     <div className="location-screen-title-container">
                         <div className="location-screen-number">

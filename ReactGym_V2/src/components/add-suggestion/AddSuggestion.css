@@ -1,0 +1,105 @@
+/* Estilos base para teléfonos móviles */
+.form {
+    
+    text-align: center;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+h1 {
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 15px;
+    text-align: center; /* Alinea el texto al centro */
+    margin-top: 2em;
+}
+
+span{
+    font-size: 24px;
+    color: red;
+    margin-bottom: 15px;
+    text-align: center; /* Alinea el texto al centro */
+}
+
+.error {
+    border: 1px solid red;
+}
+
+.sub, .save-changes-button {
+    background-color: #007bff;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    cursor: pointer;
+    margin-top: 8px;
+    border-radius: 3px;
+}
+
+.save-changes-button {
+    background-color: #28a745;
+    margin-left: 8px;
+}
+
+.form-rate {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-edit, .form-delete {
+    background-color: #ffc107;
+    color: #333;
+    padding: 4px 8px;
+    border: none;
+    cursor: pointer;
+    margin-right: 6px;
+    border-radius: 3px;
+}
+
+.form-edit:hover, .form-delete:hover {
+    background-color: #e0a800;
+}
+
+/* Estilos para tablets y teléfonos grandes (mínimo 600px) */
+@media only screen and (min-width: 600px) {
+    .form-h1 {
+        font-size: 28px;
+    }
+
+    .sub, .save-changes-button {
+        padding: 8px 16px;
+    }
+
+    .form-rate {
+        padding: 12px;
+    }
+
+    .form-edit, .form-delete {
+        padding: 6px 12px;
+    }
+}
+
+/* Estilos para laptops y escritorios (mínimo 992px) */
+@media only screen and (min-width: 992px) {
+    .form-h1 {
+        font-size: 32px;
+    }
+
+    .sub, .save-changes-button {
+        padding: 10px 20px;
+    }
+
+    .form-rate {
+        padding: 16px;
+    }
+
+    .form-edit, .form-delete {
+        padding: 8px 16px;
+    }
+}
