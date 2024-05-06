@@ -59,6 +59,15 @@
     line-height: 24px;
 }
 
+.us-screen-us .us-screen-row .us-screen-col .us-screen-p-special-txt {
+    display: none;
+}
+
+.us-screen-us .us-screen-row .us-screen-col .us-screen-p-special {
+    display: none;
+}
+
+
 .us-screen-us .us-screen-row .us-screen-col .us-screen-p-special-phone {
     padding-top: 0.5em;
     font-weight: bold;

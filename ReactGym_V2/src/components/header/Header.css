@@ -46,6 +46,90 @@ body {
     color: #fff;
 }
 
+
+
+
+
+
+
+
+
+    
+
+.menu {
+    display: none;
+    position: fixed;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-color: #ff1133;
+    color: white;
+    z-index: 100;
+}
+
+.menu a {
+    padding: 20px;
+    display: block;
+    border-bottom: 3px solid black;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding-left: 50px;
+    font-weight: bold;
+}
+
+.menu-header {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    border-bottom: 3px solid black;
+}
+
+.menu-header button {
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 0;
+    outline: none;
+}
+
+.menu-header button:hover {
+    color: #ddd;
+}
+
+.header-header-container .menu .menu-networks {
+    justify-content: center;
+    
+    margin-top: 15px;
+    border-top: none;
+}
+
+.header-header-container .menu .menu-networks a {
+    margin: 0 10px;
+    color: black;
+    border: none;
+    justify-content: center;
+}
+
+.menu-options :hover {
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 
@@ -115,4 +199,35 @@ body {
     .header-header-container .header-nav-responsive{
         font-size: 1.3em;
     }
+
+
+
+/* -------------------------------------------------------------------- */
+
+    .menu {
+        width: 30%;
+    }
+    
+    .menu a {
+        font-size: 30px;
+    }
+    
+    .menu-networks {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        margin-top: 20px;
+        border-top: none;
+    }
+    
+    .header-header-container .menu .menu-networks a {
+        margin: 0 10px;
+        color: black;
+        border: none;
+    }
+   
+    .menu-options :hover {
+        background-color: white;
+    }
+    
 }

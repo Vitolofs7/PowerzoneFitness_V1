@@ -3,9 +3,7 @@ import './StartingScreen.css';
 function StartingScreen() {
     return (
         <section className="starting-screen-start">
-
-            {/* <img src="/images/1.jpeg" alt="Fondo" /> */}
-
+            
             <div className="starting-screen-section-content">
 
                 <div className="starting-screen-info">

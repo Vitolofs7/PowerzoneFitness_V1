@@ -10,13 +10,13 @@
 .location-screen-location .location-screen-row {
     justify-content: space-between;
 }
-
+/* 
 .location-screen-location .location-screen-row .location-screen-col {
-    width: 100%;
-}
+   
+} */
 
-.location-screen-location .location-screen-row .location-screen-col img {
-    width: 50%;
+.location-screen-location .location-screen-row img {
+    width: 15em;
     display: block;
     margin: auto;
     margin-bottom: 30px;
@@ -55,11 +55,13 @@
 .location-screen-location .location-screen-row .location-screen-col .location-screen-p-special {
     font-weight: bold;
     display: block;
+    display: none;
 }
 
 .location-screen-location .location-screen-row .location-screen-col .location-screen-p-special-txt{
     font-size: 1.2em;
     display: block;
+    display: none;
 }
 
 .location-screen-location .location-screen-row .location-screen-col .location-screen-p-special-phone {
