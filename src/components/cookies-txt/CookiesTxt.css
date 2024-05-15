@@ -1,0 +1,44 @@
+.cookie-body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.cookie-main {
+    background-color: #fff;
+    padding-top: 5em;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.cookie-title {
+    color: #2c3e50;
+    font-size: 24px;
+}
+
+.cookie-subtitle {
+    color: #34495e;
+    font-size: 18px;
+}
+
+.cookie-text {
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.cookie-link a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+.cookie-link a:hover {
+    text-decoration: underline;
+}
+
+b {
+    font-weight: bold;
+}
