@@ -49,6 +49,13 @@ PowerZone Fitness is a comprehensive platform for gym management that allows own
 
 Here is an example of an RSS reader integrated into PowerZone Fitness. This feature allows users to stay updated with the latest blog posts, news, and articles related to fitness, health, and wellness.
 
+## Project URL
+
+- [PowerZone Fitness Website](https://powerzone-2407a.web.app/)
+
+## GitHub Repository
+
+- [PowerZone Fitness GitHub](https://github.com/Vitolofs7/PowerzoneFitness_V1)
 
 ## Contributing
 
