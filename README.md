@@ -43,6 +43,13 @@ PowerZone Fitness is a comprehensive platform for gym management that allows own
 - **Customization**: The application offers customization options through Google Fonts and Font Awesome, enabling a visually appealing and easily customizable user interface.
 - **Real-time Updates**: Thanks to Firebase, the application ensures real-time data synchronization, enabling instant updates across multiple devices.
 
+## RSS Reader
+
+![RSS Reader](CapturaRSS.PNG)
+
+Here is an example of an RSS reader integrated into PowerZone Fitness. This feature allows users to stay updated with the latest blog posts, news, and articles related to fitness, health, and wellness.
+
+
 ## Contributing
 
 Contributions to PowerZone Fitness are welcome! Feel free to fork the repository, make your changes, and submit a pull request.
