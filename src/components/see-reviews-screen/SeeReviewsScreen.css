@@ -25,15 +25,38 @@ h1 {
 .reviews-list li div {
     display: flex;
     align-items: center;
+    justify-content: safe;
 }
 
-.reviews-list li p {
-    margin: 0;
+.reviews-list li .text-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex: 1;
+}
+
+.reviews-list li .text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.reviews-list li .text-container p.name {
+    flex: 0.5;
+}
+
+.reviews-list li .text-container p.review {
+    flex: 1;
 }
 
 .reviews-list li input[type="text"] {
     width: 200px;
     margin-right: 10px;
+}
+
+.reviews-list li .button-container {
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
 }
 
 .reviews-list li button {
@@ -56,7 +79,7 @@ h1 {
     font-size: 14px;
 }
 
-.see-reviews-container .reviews-list .items button {
+.see-reviews-container .reviews-list .items button-container button {
     font-size: 10px;
 }
 
@@ -167,3 +190,37 @@ h1 {
     
     
 }   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

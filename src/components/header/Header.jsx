@@ -39,7 +39,7 @@ function Header() {
                 </div>
                 <div className="menu-options">
                     <a href="/home">INICIO</a>
-                    <a href="#uS">NOSOTROS</a>
+                    <a href="#us">NOSOTROS</a>
                     <a href="#services">SERVICIOS</a>
                     <a href="#gallery">GALERIA</a>
                     <a href="/log">REGISTRATE</a>

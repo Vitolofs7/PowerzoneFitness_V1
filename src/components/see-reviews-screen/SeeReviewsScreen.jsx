@@ -72,10 +72,14 @@ function SeeReviewsScreen() {
                                 </div>
                             ) : (
                                 <div className='items'>
-                                    <p><strong>Nombre:</strong> {review.name}</p>
-                                    <p><strong>Reseña:</strong> {review.rate}</p>
-                                    <button className="animated-button" onClick={() => deleteReview(review.id)}>Eliminar</button>
-                                    <button className="animated-button" onClick={() => editReview(review)}>Editar</button>
+                                    <div className="text-container">
+                                        <p><strong>Nombre:</strong> {review.name}</p>
+                                        <p><strong>Reseña:</strong> {review.rate}</p>
+                                    </div>
+                                    <div className="button-container">
+                                        <button className="animated-button" onClick={() => deleteReview(review.id)}>Eliminar</button>
+                                        <button className="animated-button" onClick={() => editReview(review)}>Editar</button>
+                                    </div>
                                 </div>
                             )}
                         </li>
