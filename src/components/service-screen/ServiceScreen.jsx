@@ -16,7 +16,7 @@ function ServiceScreen() {
                             </div>
                         </div>
                         <p className="service-screen-p-special">¡Descubre la experiencia definitiva en nuestro exclusivo centro de bienestar!</p>
-                        <p>En nuestras instalaciones de vanguardia, te ofrecemos todo lo que necesitas para alcanzar tus metas de salud y forma física. Con equipos de última tecnología y un equipo de expertos en fitness dedicados, te brindamos un entorno inspirador donde cada sesión de entrenamiento se convierte en una experiencia incomparable.</p>
+                        <p className="service-screen-p-special-txt">En nuestras instalaciones de vanguardia, te ofrecemos todo lo que necesitas para alcanzar tus metas de salud y forma física. Con equipos de última tecnología y un equipo de expertos en fitness dedicados, te brindamos un entorno inspirador donde cada sesión de entrenamiento se convierte en una experiencia incomparable.</p>
                     </div>
                     <div className="service-screen-col">
                         <img src="/images/servicios.png" alt=""></img>

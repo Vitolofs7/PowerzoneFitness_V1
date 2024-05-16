@@ -72,8 +72,13 @@
 
 .service-screen-services .service-screen-services-content .service-screen-row .service-screen-col .service-screen-p-special {
     font-weight: bold;
-    display: none;
 }
+
+.service-screen-services .service-screen-services-content .service-screen-row .service-screen-col .service-screen-p-special-txt {
+    max-width: 800px;
+    margin: 0 auto; 
+}
+
 
 .service-screen-info-services {
     margin: -2rem auto 0;
